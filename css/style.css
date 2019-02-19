@@ -14,19 +14,12 @@
 /************************/
 /*         TEXT            */
 /************************/
-
-
-
-
-.action {
-  border-radius: 80px
+body{
+  font-size: 33px;
 }
 
 
 
-form {
-  border-radius: 80px
-}
 
 
 
@@ -36,3 +29,14 @@ form {
 /************************/
 /*         BUTTONs         */
 /************************/
+
+
+
+input {
+  border-radius: 20px;
+  opacity: 0.8;
+}
+
+button{
+  background-color: yellow
+}
