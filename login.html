@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TheEventbriteApp</title>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="9ixlL+3KGmxjVS1ZHt+DBYXFxxgTcMS87TdiL6CzbTfHbVYdJwtuzOLiLkA+6sd5Dk6CNqaFec9l3OAhlHO0Mg==" />
+
+
+    <link rel="stylesheet" media="all" href="/assets/application-d1be5ed5b6cb78061a7ea5e9df80c77ce9b19eb122de40305e7401ac7e02ed34.css" data-turbolinks-track="reload" />
+    <script src="/assets/application-64f11cf802d578d9584fade9f6e0316ad2c99e9740d53a3da9d4dd288468fbcf.js" data-turbolinks-track="reload"></script>
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://bootswatch.com/4/solar/bootstrap.min.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <center>
+
+    <div class="container">
+      <h2>Log in</h2>
+
+<form class="new_user" id="new_user" action="/users/sign_in" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="u9wBmnr5jL1OnaIgPG2cgE8kJ02xAy9LXyDX20ioQFiIiyMMYa/1NjBrwPsg8RNIR+dQ8YvrP2dvFdWtdrriOg==" />
+  <div class="field">
+    <label for="user_email">Email</label><br />
+    <input autofocus="autofocus" autocomplete="email" type="email" value="" name="user[email]" id="user_email" />
+  </div>
+
+  <div class="field">
+    <label for="user_password">Password</label><br />
+    <input autocomplete="current-password" type="password" name="user[password]" id="user_password" />
+  </div>
+
+    <div class="field">
+      <input name="user[remember_me]" type="hidden" value="0" /><input type="checkbox" value="1" name="user[remember_me]" id="user_remember_me" />
+      <label for="user_remember_me">Remember me</label>
+    </div>
+
+  <div class="actions">
+    <input type="submit" name="commit" value="Log in" data-disable-with="Log in" />
+  </div>
+</form>
+
+  <a href="/users/sign_up">Sign up</a><br />
+
+  <a href="/users/password/new">Forgot your password?</a><br />
+
+
+
+
+
+    </div>
+  </center>
+  </body>
+</html>
