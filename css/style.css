@@ -4,6 +4,7 @@
 /************************/
 
 
+/* bon chance pour lire les commentaires kkk */
 
 
 
@@ -28,20 +29,21 @@ body{
   margin-right:  auto;
 }
 
+/* login.html */
 
 textarea {
   opacity: 0.8;
   border-radius: 10px;
 }
 
+/* login.html */
+
 input {
   border-radius: 20px;
   opacity: 0.8;
 }
 
-/*button{
-  background-color: yellow
-}*/
+
 
  /**********************/
  /*        BANNER      */
@@ -176,6 +178,7 @@ footer p{
   border-top-right-radius: inherit;
   border-top-left-radius: inherit;
   object-fit: cover;
+  opacity: 0,2;
   object-position: 100% 0;
   height: 50vh;
 }
