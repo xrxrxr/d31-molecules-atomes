@@ -203,3 +203,25 @@ footer p{
 .main-content{
   padding: 5% 10%;
 }
+
+.main-aside{
+  padding: 5% 2.5%;
+}
+
+.item-main-aside{
+  margin-bottom: 10%;
+}
+
+.main-bar{
+  display:flex;
+  padding: 1% 10%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: space-between;
+}
+
+.main-bar p{
+  margin-bottom: 0px;
+}
+
