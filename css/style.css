@@ -22,8 +22,15 @@
 /************************/
 /*         BUTTONS      */
 /************************/
+.comments {
+  margin-left:40px auto;
+  margin-right: 40px auto;
+}
 
-
+textarea {
+  opacity: 0.8;
+  border-radius: 10px;
+}
 
 input {
   border-radius: 20px;
