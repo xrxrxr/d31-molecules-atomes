@@ -1,40 +1,56 @@
-<!-- Bootstrap CSS -->
-<link href="https://bootswatch.com/4/solar/bootstrap.min.css" rel="stylesheet" type="text/css">
-<!-- la vrai stylsheet -->
-  <link rel="stylesheet" id ="page_style" href="./css/style.css" />
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The EventVenue App</title>
+    <meta charset="UTF-8">
+    <meta name="csrf-param" content="authenticity_token" />
+    <meta name="csrf-token" content="S7gW873EgjcJ2OJeLfyi/VAc3L6Dc++4UfeQni/ekrB6+SXBdwX2l4hv4UcNyeaB25eZkDaGUsvZHBKQGx5LtQ==" />
+
+    <link rel="stylesheet" media="all" href="/assets/application-d1be5ed5b6cb78061a7ea5e9df80c77ce9b19eb122de40305e7401ac7e02ed34.css" data-turbolinks-track="reload" />
+    <script src="/assets/application-64f11cf802d578d9584fade9f6e0316ad2c99e9740d53a3da9d4dd288468fbcf.js" data-turbolinks-track="reload"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://bootswatch.com/4/solar/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!-- la vrai stylsheet -->
+    <link rel="stylesheet" id ="page_style" href="./css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="#">EventVenue</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Create an Event</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">My Admin</a>
+          </li>
+        </ul>
+        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+          <button type="button" class="btn btn-primary">Connexion</button>
+          <div class="btn-group show" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"></button>
+            <div class="dropdown-menu show" aria-labelledby="btnGroupDrop1" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: -10rem; transform: translate3d(0px, 38px, 0px);">
+              <a class="dropdown-item" href="#">Sign up</a>
+              <a class="dropdown-item" href="#">Log in</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <br><br><br><br><br>
+    <legend>
+      <a href="index.html"> <img src="./img/home.png" alt=""></a>
+    </legend>
+    <br>
+  </body>
+</html>
 
 
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
-<a class="navbar-brand" href="/">EventBrite</a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-  <span class="navbar-toggler-icon"></span>
-</button>
-
-<div class="collapse navbar-collapse" id="navbarSupportedContent">
-  <ul class="navbar-nav mr-auto">
-    <li class="nav-item active">
-      <a class="nav-link" href="index.html">Home</a>
-    </li>
-    <li class="nav-item active">
-      <a class="nav-link" href="event.html">Create Event</a>
-    </li>
-      <li>
-        <a href="login.html">Log in</a>
-      </li>
-      <li>
-        <a href="signup.html">Sign up</a>
-      </li>
-  </ul>
-</div>
-</nav>
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<legend>
-  <a href="index.html"> <img src="./img/home.png" alt=""></a>
-</legend>
-<br>
