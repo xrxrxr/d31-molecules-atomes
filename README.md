@@ -2,7 +2,7 @@
 
 Alors alors;
 
-On s'attaque au __front__, pleins de fichiers pour pleins de jolie truc #utile.
+On s'attaque au __front__, pleins de fichiers pour pleins de jolie truc # utile.
 
 C'est tout. Amuses toi bien
 
